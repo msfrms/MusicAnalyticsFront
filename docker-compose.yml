@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+    trach:
+      build: 
+        context: .
+        dockerfile: Dockerfile
+      container_name: trach
+      ports:
+        - "80:5000"                      
